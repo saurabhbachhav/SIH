@@ -4,6 +4,7 @@ from pymongo import MongoClient
 import random
 import re
 from flask_cors import CORS
+
 app = Flask(__name__)
 CORS(app)  #
 # Configuration for Flask-Mail
